@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Hallowpattern",
+            "request": "launch",
+            "mainClass": "Hallowpattern",
+            "projectName": "Javacodes_72d0b4f4"
+        },
+        {
+            "type": "java",
+            "name": "MinMaxArray",
+            "request": "launch",
+            "mainClass": "MinMaxArray",
+            "projectName": "Javacodes_72d0b4f4"
+        },
+        {
+            "type": "java",
+            "name": "ArmStrong",
+            "request": "launch",
+            "mainClass": "ArmStrong",
+            "projectName": "Javacodes_72d0b4f4"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "PrimeNumber",
+            "projectName": "Javacodes_72d0b4f4"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacciseries",
+            "request": "launch",
+            "mainClass": "Fibonacciseries",
+            "projectName": "Javacodes_72d0b4f4"
+        },
+        {
+            "type": "java",
+            "name": "FactorialNumber",
+            "request": "launch",
+            "mainClass": "FactorialNumber",
+            "projectName": "Javacodes_72d0b4f4"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeCheck",
+            "request": "launch",
+            "mainClass": "PalindromeCheck",
+            "projectName": "Javacodes_72d0b4f4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "Javacodes_72d0b4f4"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .job-form,
+  .job-listings {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .job-form h2,
+  .job-listings h2 {
+    margin-bottom: 15px;
+    color: #0077cc;
+  }
+  
+  .job-form input,
+  .job-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .job-form button {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-form button:hover {
+    background-color: #005fa3;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #fafafa;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    .job-form,
+    .job-listings {
+      padding: 15px;
+    }
+  
+    .job-form input,
+    .job-form textarea {
+      font-size: 14px;
+    }
+  }
+  
