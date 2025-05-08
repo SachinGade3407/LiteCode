@@ -1,0 +1,213 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://your-image-url.com/path/to/image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Section */
+.hero {
+    background: rgba(161, 196, 253, 0.7);
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+    font-style: italic;
+}
+
+.hero-btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #e75447;
+    transform: scale(1.1);
+}
+
+/* Cart Icon */
+.cart-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    z-index: 1000;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cart-icon a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart-icon:hover {
+    background-color: #e75447;
+}
+
+/* Book List */
+.book-list {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+.book-list h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#searchBar {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px 15px;
+    margin: 0 auto 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    display: block;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+#searchBar:focus {
+    border-color: #ff6f61;
+}
+
+/* Book Container */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Book Card */
+.book-card {
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.book-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.book-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #37474f;
+    font-weight: bold;
+}
+
+.book-card p {
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 5px;
+}
+
+.book-card .price {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.book-card button {
+    padding: 10px 15px;
+    background-color: #ff7043;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    margin: 0 auto 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, green 0.3s;
+}
+
+.book-card button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+/* About BookVerse section */
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    flex-grow: 1; /* Ensure it takes available space */
+}
+
+.description h2 {
+    font-size: 2.5rem;
+    color: #37474f;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 1.2rem;
+    color: #616161;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #37474f;
+    color: #fff;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
